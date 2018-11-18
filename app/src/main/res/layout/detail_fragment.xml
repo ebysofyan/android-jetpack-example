@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <ImageView
+        android:id="@+id/detail_image_article"
+        android:layout_width="match_parent"
+        android:scaleType="centerCrop"
+        android:layout_height="175dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="8dp">
+        
+        <TextView
+            android:id="@+id/detail_txt_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="Judul"
+            android:textColor="@color/primaryText"
+            android:textSize="14sp"/>
+        
+        <TextView
+            android:id="@+id/detail_txt_info"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="22-22-22 | hello"
+            android:textColor="@color/secondaryText"
+            android:textSize="11sp"/>
+        
+        <TextView
+            android:id="@+id/detail_txt_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="8dp"
+            android:text="content"
+            android:textColor="@color/secondaryText"
+            android:textSize="11sp"/>
+    
+    </LinearLayout>
+</LinearLayout>
